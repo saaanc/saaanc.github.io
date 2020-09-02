@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Saanvi's Portfolio</title>
+	<title>Saanvi's Portoflio</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="Riddle - Portfolio Template">
 	<meta name="keywords" content="portfolio, riddle, onepage, creative, html">
@@ -76,58 +76,50 @@
 		<div class="container">
 			<ul class="portfolio-filter controls">
 				<li class="control" data-filter="all">All</li>
+				<li class="control" data-filter=".graphic">Graphic design</li>
+				<li class="control" data-filter=".marketing">Marketing</li>
 				<li class="control" data-filter=".web">Web design</li>
-				<li class="control" data-filter=".digital">Digital design</li>
-				<li class="control" data-filter=".rened">3D Renedering</li>
-				<li class="control" data-filter=".brand">Brand Identity</li>
 			</ul>
 		</div>                       
 		<div class="container-fluid p-md-0 ">
 			<div class="row portfolios-area">
-				<div class="mix col-lg-6 col-md-6 web">
+				<div class="mix col-lg-6 col-md-6 marketing">
 					<a href="img/portfolio/1.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/1.jpg">
 						<div class="pi-inner">
 							<h2>+ See Project</h2>
 						</div>						
 					</a>
 				</div>
-				<div class="mix col-lg-6 col-md-6 digital">
+				<div class="mix col-lg-6 col-md-6 marketing" onclick="openInNewTab('https://youtu.be/39vp43l4Ubo');">
 					<a href="img/portfolio/2.jpg" class="portfolio-item set-bg " data-setbg="img/portfolio/2.jpg">
 						<div class="pi-inner">
 							<h2>+ See Project</h2>
 						</div>						
 					</a>
 				</div>
-				<div class="mix col-lg-4 col-md-6 web">
-					<a href="img/portfolio/3.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/3.jpg">
+				<div class="mix col-lg-4 col-md-6 web graphic">
+					<a href="img/portfolio/3_2.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/3.jpg">
 						<div class="pi-inner">
 							<h2>+ See Project</h2>
 						</div>						
 					</a>
 				</div>
-				<div class="mix col-lg-4 col-md-6 digital">
+				<div class="mix col-lg-4 col-md-6 graphic">
 					<a href="img/portfolio/4.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/4.jpg">
 						<div class="pi-inner">
 							<h2>+ See Project</h2>
 						</div>						
 					</a>
 				</div>
-				<div class="mix col-lg-4 col-md-6 rened">
-					<a href="img/portfolio/5.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/5.jpg">
+				<div class="mix col-lg-4 col-md-6 graphic">
+					<a href="img/portfolio/5_2.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/5.jpg">
 						<div class="pi-inner">
 							<h2>+ See Project</h2>
 						</div>						
 					</a>
 				</div>
-				<div class="mix col-lg-12 col-md-6 brand">
+				<div class="mix col-lg-6 col-md-6 marketing" onclick="openInNewTab('img/portfolio/sophomore_guide.pdf');">
 					<a href="img/portfolio/6.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/6.jpg">
-						<div class="pi-inner">
-							<h2>+ See Project</h2>
-						</div>						
-					</a>
-				</div>
-				<div class="mix col-lg-6 col-md-6 rened">
-					<a href="img/portfolio/7.jpg" class="portfolio-item set-bg" data-setbg="img/portfolio/7.jpg">
 						<div class="pi-inner">
 							<h2>+ See Project</h2>
 						</div>						
@@ -150,7 +142,7 @@
 	<footer class="footer-section text-center">
 		<div class="container">
 			<h2 class="section-title mb-5">Let’s work together</h2>
-			<a href="" class="site-btn">Get in touch</a>
+			<a href="contact.html" class="site-btn">Get in touch</a>
 			<hr />
 			<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
@@ -163,6 +155,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 
 	<!--====== Javascripts & Jquery ======-->
+	<script>
+		function openInNewTab(url) {
+			var win = window.open(url, '_blank');
+			win.focus();
+		}
+	</script>
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/mixitup.min.js"></script>
